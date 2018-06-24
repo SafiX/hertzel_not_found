@@ -48,7 +48,7 @@
 	}
 
 	// style
-	let css = '.seeThru-display {position: absolute; bottom: -3px; height: 400px;left: -351px;}',
+	let css = '.seeThru-display {position: absolute; bottom: -3px; height: 270px; left: -238px; z-index:214748364}',
 		head = document.head || document.getElementsByTagName('head')[0],
 		style = document.createElement('style');
 

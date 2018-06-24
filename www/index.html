@@ -84,6 +84,7 @@ Donec dolor dui, mollis in scelerisque et, tempor in urna. Nunc consequat ipsum 
 		vid.style.display = 'none';
 		vid.setAttribute('autoplay', '');
 		vid.setAttribute('playsinline', '');
+		vid.setAttribute('loop', '');
 		let vidSrc = document.createElement('source');
 		vidSrc.setAttribute('type','video/mp4');
 		vid.append(vidSrc);
@@ -122,7 +123,7 @@ Donec dolor dui, mollis in scelerisque et, tempor in urna. Nunc consequat ipsum 
 		}
 		
 		// style
-		let css = '.seeThru-display {position: absolute; bottom: -3px; height: 400px;left: -351px;}',
+		let css = '.seeThru-display {position: absolute; bottom: -3px; height: 270px; left: -238px; z-index:214748364}',
 			head = document.head || document.getElementsByTagName('head')[0],
 			style = document.createElement('style');
 
