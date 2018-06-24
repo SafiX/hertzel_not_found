@@ -2,7 +2,8 @@
 
 Use this repo to help finding him!
 
-####[See Example](https://hertzelnotfoundongithub.firebaseapp.com "See Example") 
+####[See example](https://hertzelnotfoundongithub.firebaseapp.com "See example") 
+####[See another example](https://bintraykmock1.firebaseapp.com/temp.mp4 "See example") 
 Click anywhere on the page.
 
 ###Usage
