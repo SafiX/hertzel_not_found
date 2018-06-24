@@ -55,15 +55,4 @@
 	style.type = 'text/css';
 	style.appendChild(document.createTextNode(css));
 	head.appendChild(style);
-
-	window.scrollHertzelDown = () => {
-		let offSetVid = window.pageYOffset;
-		let video = document.getElementsByClassName('seeThru-display')[0];
-		if (video) {
-			document.getElementsByClassName('seeThru-display')[0].style.bottom = `-${offSetVid}px`;
-		}
-	};
-
-	document.body.onscroll = window.scrollHertzelDown;
-
 })();
