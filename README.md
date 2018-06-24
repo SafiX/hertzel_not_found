@@ -1,6 +1,6 @@
 # Where the hell is Hertzel?
 
-Use this repo to help finding him!
+Use this repo to help find him!
 
 ####[See example](https://hertzelnotfoundongithub.firebaseapp.com "See example") 
 ####[See another example](https://bintraykmock1.firebaseapp.com "See example") 
